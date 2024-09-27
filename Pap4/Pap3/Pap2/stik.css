@@ -61,7 +61,14 @@ h4{
 .form1{
     order:3;
 }
-@media (min-width:960px) {
+
+    
+@media (min-width:960px) 
+{
+    .tabletask td{
+        font-size: medium;
+    }
+    tr:nth-child(odd) {background-color:rgb(228, 137, 0);}
     .logot{
         width: 40%;
     }
