@@ -61,10 +61,17 @@ h4{
 .form1{
     order:3;
 }
-
+.tabletask  {
+    margin: 0 auto;
+    width: 100%;
+}
     
 @media (min-width:960px) 
 {
+    .tabletask  {
+        margin: 0 auto;
+        width:28%;
+    }
     .tabletask td{
         font-size: medium;
     }
