@@ -1,0 +1,88 @@
+.logo{
+    float:left;
+    width: 180px;
+    height: 120px;
+    
+}
+header{
+    text-align: center;
+    word-spacing: 1cm;
+    font-size: x-large;
+}
+ol{
+    text-align: left;
+}
+body{
+    text-align: center;
+}
+.tabletask{
+    margin: 0 auto;
+}
+tr:nth-child(odd) {background-color:rgb(228, 137, 0);}
+h2{
+    text-align: left;
+}
+h3{
+    text-align: center;
+}
+html{
+    background-color: rgba(255, 193, 142, 0.658);
+}
+.menu{
+    display: flex;
+    flex-direction:column;
+    background-color: antiquewhite;
+    width: 100%;
+    text-align: center;
+
+}
+h3{
+    background-color: antiquewhite;
+}
+h4{
+    background-color: antiquewhite;
+}
+.logot{
+    width: 40%;
+}
+.logot2{
+    width: 40%;
+}
+.PAPA{
+    display: flex;
+    flex-direction: column;
+}
+.Spis{
+    order:2;
+}
+.tabl{
+    order:1;
+}
+.form1{
+    order:3;
+}
+@media (min-width:960px) {
+    .logot{
+        width: 40%;
+    }
+    .logot2{
+        width: 90%;
+    }
+    .menu{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        row-gap: center;
+    }
+    .Spis{
+        order:1;
+    }
+    .tabl{
+        order:2;
+    }
+    .form1{
+        order:5;
+    }
+
+
+}
